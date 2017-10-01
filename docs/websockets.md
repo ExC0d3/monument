@@ -196,6 +196,6 @@ The `passthrough` system does not return any events or data to the client, unles
 
 Punting on this one. It is literally a combination of the `data` and `passthrough` versions. If the event has the `data:set:SOMETHING` structure it is handled as a data event. If it isn't then it is handled like the `passthrough` style.
 
-## parting thoughts
+## Parting thoughts
 
 If your web socket message does not contain an event (see above structure) then it will be ignored and not passed on. 
